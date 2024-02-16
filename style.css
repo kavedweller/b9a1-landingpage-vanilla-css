@@ -16,7 +16,7 @@ body {
 
 .image-container {
   position: relative;
-  text-align: center;
+  text-align: start;
   color: white;
   height: 600px;
   width: 1320px;
@@ -59,6 +59,11 @@ body {
   padding-block: 0;
   margin-block: 0;
 }
+.section-display-4{
+  font-size:18px;
+  padding-block: 0;
+  margin-block: 0;
+}
 
 .serif{
   font-family: Merriweather, serif;
@@ -79,6 +84,10 @@ body {
   text-align: center;
 }
 
+.text-start{
+  text-align: start;
+}
+
 .text-red-1{
   color:#ff0000;
 }
@@ -89,4 +98,11 @@ body {
 
 .padding-y-5{
   padding-block: 5em;
+}
+
+.w-75{
+  width: 75%;
+}
+.w-25{
+  width: 25%;
 }
