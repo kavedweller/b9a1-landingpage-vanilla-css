@@ -163,12 +163,16 @@ body {
   margin-top: 2em;
 }
 
-.padding-y-5 {
-  padding-block: 5em;
-}
-
 .padding-y-1 {
   padding-block: 1em;
+}
+
+.padding-y-3 {
+  padding-block: 3em;
+}
+
+.padding-y-5 {
+  padding-block: 5em;
 }
 
 .padding-t-5 {
@@ -268,4 +272,8 @@ a {
   background-color: #ff0000;
   color: white;
   border-radius: 0 35px 35px 0;
+}
+
+hr{
+  filter: brightness(50%);
 }
