@@ -277,3 +277,13 @@ a {
 hr{
   filter: brightness(50%);
 }
+
+.grow img{
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.grow img:hover{
+  transform: scale(1.03);
+  transition: 1s ease;
+}
