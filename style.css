@@ -22,6 +22,11 @@ body {
   width: 1320px;
 }
 
+.darkened {
+  /* filter: brightness(80%); */
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
 /* Centered text overlay*/
 .centered-textover {
   position: absolute;
@@ -105,4 +110,20 @@ body {
 }
 .w-25{
   width: 25%;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+.border{
+  border: 1px solid red;
+}
+
+.align-center{
+  align-items: center;
 }
